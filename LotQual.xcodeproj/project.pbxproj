@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62126D8822CD0E110017D864 /* RoundCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62126D8722CD0E110017D864 /* RoundCornerView.swift */; };
+		62126D8C22CD19040017D864 /* z14-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 62126D8B22CD19040017D864 /* z14-icon.png */; };
 		621B78F222CC4EC100E16283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B78F122CC4EC100E16283 /* AppDelegate.swift */; };
 		621B78F422CC4EC100E16283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B78F322CC4EC100E16283 /* ViewController.swift */; };
 		621B78F722CC4EC100E16283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621B78F522CC4EC100E16283 /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		621B78FC22CC4EC200E16283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621B78FA22CC4EC200E16283 /* LaunchScreen.storyboard */; };
 		621B790722CC4EC200E16283 /* LotQualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B790622CC4EC200E16283 /* LotQualTests.swift */; };
 		621B791222CC4EC200E16283 /* LotQualUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B791122CC4EC200E16283 /* LotQualUITests.swift */; };
+		621B792022CC4F1A00E16283 /* LogoTxt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 621B791F22CC4F1A00E16283 /* LogoTxt.jpg */; };
+		621B792222CC4F9400E16283 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 621B792122CC4F9400E16283 /* background.jpg */; };
+		62B0B55222CC63F00000D1C5 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B0B55122CC63EF0000D1C5 /* iOSDropDown.swift */; };
+		62B2AE4A22CE4A8A00D5693E /* Z1 in Resources */ = {isa = PBXBuildFile; fileRef = 62B2AE4922CE4A8A00D5693E /* Z1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62126D8722CD0E110017D864 /* RoundCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCornerView.swift; sourceTree = "<group>"; };
+		62126D8B22CD19040017D864 /* z14-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "z14-icon.png"; path = "../../../../Downloads/z14-icon.png"; sourceTree = "<group>"; };
 		621B78EE22CC4EC100E16283 /* LotQual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotQual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		621B78F122CC4EC100E16283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		621B78F322CC4EC100E16283 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		621B790D22CC4EC200E16283 /* LotQualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotQualUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		621B791122CC4EC200E16283 /* LotQualUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotQualUITests.swift; sourceTree = "<group>"; };
 		621B791322CC4EC200E16283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		621B791F22CC4F1A00E16283 /* LogoTxt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = LogoTxt.jpg; path = ../../../Documents/LogoTxt.jpg; sourceTree = "<group>"; };
+		621B792122CC4F9400E16283 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../Downloads/background.jpg; sourceTree = "<group>"; };
+		62B0B55122CC63EF0000D1C5 /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		62B2AE4922CE4A8A00D5693E /* Z1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Z1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,8 @@
 		621B78E522CC4EC100E16283 = {
 			isa = PBXGroup;
 			children = (
+				621B791F22CC4F1A00E16283 /* LogoTxt.jpg */,
+				621B792122CC4F9400E16283 /* background.jpg */,
 				621B78F022CC4EC100E16283 /* LotQual */,
 				621B790522CC4EC200E16283 /* LotQualTests */,
 				621B791022CC4EC200E16283 /* LotQualUITests */,
@@ -97,12 +111,16 @@
 		621B78F022CC4EC100E16283 /* LotQual */ = {
 			isa = PBXGroup;
 			children = (
+				62B2AE4922CE4A8A00D5693E /* Z1 */,
+				62B0B55122CC63EF0000D1C5 /* iOSDropDown.swift */,
 				621B78F122CC4EC100E16283 /* AppDelegate.swift */,
 				621B78F322CC4EC100E16283 /* ViewController.swift */,
 				621B78F522CC4EC100E16283 /* Main.storyboard */,
 				621B78F822CC4EC200E16283 /* Assets.xcassets */,
+				62126D8B22CD19040017D864 /* z14-icon.png */,
 				621B78FA22CC4EC200E16283 /* LaunchScreen.storyboard */,
 				621B78FD22CC4EC200E16283 /* Info.plist */,
+				62126D8722CD0E110017D864 /* RoundCornerView.swift */,
 			);
 			path = LotQual;
 			sourceTree = "<group>";
@@ -230,8 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				621B78FC22CC4EC200E16283 /* LaunchScreen.storyboard in Resources */,
+				62B2AE4A22CE4A8A00D5693E /* Z1 in Resources */,
+				621B792222CC4F9400E16283 /* background.jpg in Resources */,
 				621B78F922CC4EC200E16283 /* Assets.xcassets in Resources */,
 				621B78F722CC4EC100E16283 /* Main.storyboard in Resources */,
+				62126D8C22CD19040017D864 /* z14-icon.png in Resources */,
+				621B792022CC4F1A00E16283 /* LogoTxt.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62126D8822CD0E110017D864 /* RoundCornerView.swift in Sources */,
+				62B0B55222CC63F00000D1C5 /* iOSDropDown.swift in Sources */,
 				621B78F422CC4EC100E16283 /* ViewController.swift in Sources */,
 				621B78F222CC4EC100E16283 /* AppDelegate.swift in Sources */,
 			);
